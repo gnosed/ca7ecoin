@@ -1,0 +1,114 @@
+@smartphones: ~"only screen and (max-width: 479px)";
+@tablets: ~"only screen and (min-width: 768px) and (max-width: 959px)";
+
+@font-size--large: 24px;
+@font-size--medium: 12px;
+
+
+body{
+    font-size: 24px;
+}
+.cube-el{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 280px;
+    height: 300px;
+}
+
+.cube-left-el{
+    .cube-el;
+    left: 0;
+}
+
+.cube-right-el{
+    .cube-el;
+    right: 0;
+}
+
+/* Left top to right top */
+
+.cube-sliced-01{
+    .cube-left-el;
+    height: 250px;
+    background-image: url('../images/cube-sliced-01.svg');
+}
+
+.cube-sliced-02{
+    .cube-left-el;
+    z-index: -1;
+    width: 100%;
+    background-image: url('../images/cube-sliced-02.svg');
+    background-repeat: repeat-x;
+}
+
+.cube-sliced-03{
+    .cube-right-el;
+    height: 250px;
+    background-image: url('../images/cube-sliced-03.svg');
+}
+
+/* side bars of the cube */
+
+.cube-sliced-04{
+    .cube-left-el;
+    z-index: -1;
+    height: 90%;
+    top: 5%;
+    background-image: url('../images/cube-sliced-04.svg');
+    background-repeat: repeat-y;
+}
+
+.cube-sliced-06{
+    .cube-sliced-04;
+    right: 0;
+    background-image: url('../images/cube-sliced-06.svg');
+}
+
+/* Left bottom to right bottom */
+
+.cube-footer{
+    min-height: 100vh;
+    margin-bottom: -30px;
+}
+
+.cube-sliced-07{
+    .cube-left-el;
+    bottom: 0;
+    background-image: url('../images/cube-sliced-07.svg');
+}
+
+.cube-sliced-08{
+    .cube-left-el;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-image: url('../images/cube-sliced-08.svg');
+    background-repeat: repeat-x;
+}
+
+.cube-sliced-09{
+    .cube-right-el;
+    bottom: 0;
+}
+
+
+/* SETTINGS of movable elements */
+
+#box() { 
+    .box{
+        position: relative;
+        top: 300px;
+        left: 10vw;
+        z-index: 3;
+        width: 30vw;
+        border: 8px solid black;
+    }
+    .box-title{
+        border-bottom: 10px dotted black;
+    }
+
+    .box-content{
+    }
+
+}

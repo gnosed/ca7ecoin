@@ -1,0 +1,126 @@
+body {
+  font-size: 24px;
+}
+.cube-el {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+}
+.cube-left-el {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+}
+.cube-right-el {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  right: 0;
+}
+/* Left top to right top */
+.cube-sliced-01 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+  height: 250px;
+  background-image: url('../images/dead/cube-sliced-trame_neg-01.png');
+}
+.cube-sliced-02 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  background-image: url('../images/dead/cube-sliced-trame_neg-02.png');
+  background-repeat: repeat-x;
+}
+.cube-sliced-03 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  right: 0;
+  height: 250px;
+  background-image: url('../images/cube-sliced-03.svg');
+}
+/* side bars of the cube */
+.cube-sliced-04 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+  z-index: -1;
+  height: 90%;
+  top: 5%;
+  background-image: url('../images/cube-sliced-04.svg');
+  background-repeat: repeat-y;
+}
+.cube-sliced-06 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+  z-index: -1;
+  height: 90%;
+  top: 5%;
+  background-image: url('../images/cube-sliced-04.svg');
+  background-repeat: repeat-y;
+  right: 0;
+  background-image: url('../images/cube-sliced-06.svg');
+}
+/* Left bottom to right bottom */
+.cube-footer {
+  min-height: 100vh;
+  margin-bottom: -30px;
+}
+.cube-sliced-07 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+  bottom: 0;
+  background-image: url('../images/cube-sliced-07.svg');
+}
+.cube-sliced-08 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  background-image: url('../images/cube-sliced-08.svg');
+  background-repeat: repeat-x;
+}
+.cube-sliced-09 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  right: 0;
+  bottom: 0;
+}
+/* SETTINGS of movable elements */

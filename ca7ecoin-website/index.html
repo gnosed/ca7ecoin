@@ -1,0 +1,286 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>The Ca7ecoin</title>
+
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ca7ecoin (Catecoin) is a community project, working with Ethereum, with the aim to create creative and original content to a widely public."/>
+
+        <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+        <link href='stylesheets/app.css' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="javascripts/app.js"></script>
+        <script></script>
+    </head>
+    <body>
+        <!-- Preload images for the cube -->
+        <div class="cate-loader-logo"></div>
+        <div class="cate-loader"></div>
+        <div class="cube-preloader">
+          <div class="cube-sliced-01"></div>
+          <div class="cube-sliced-02"></div>
+          <div class="cube-sliced-03"></div>
+          <div class="cube-sliced-04"></div>
+          <div class="cube-sliced-05"></div>
+          <div class="cube-sliced-06"></div>
+          <div class="cube-sliced-07"></div>
+          <div class="cube-sliced-08"></div>
+          <div class="cube-sliced-09"></div>
+          <!-- DEAD Cate  -->
+          <div class="cube-sliced-01-neg"></div>
+          <div class="cube-sliced-02-neg"></div>
+          <div class="cube-sliced-03-neg"></div>
+          <div class="cube-sliced-04-neg"></div>
+          <div class="cube-sliced-05-neg"></div>
+          <div class="cube-sliced-06-neg"></div>
+          <div class="cube-sliced-07-neg"></div>
+          <div class="cube-sliced-08-neg"></div>
+          <div class="cube-sliced-09-neg"></div>
+        </div>
+
+        <div id="cube">
+            <div id="logo"></div>
+            <div class="cube-sliced-01 cube-color"></div>
+
+            <div class="cube-sliced-02 cube-color"></div>
+
+            <div class="cube-sliced-03 cube-color"></div>
+
+            <!-- Here come the header stuffs -->
+
+            <div id="cate-logo"></div>
+            <div id="cate-menu">
+            </div>
+            <div id="cate-state">
+                <ul>
+                   <li class="alive-cate" onclick="aliveCate()">ALIVE</li>
+                   <li class="living-dead-cate" onclick="aliveCate(), livingDeadCate()">LIVING <br/> DEAD</li>
+                   <li class="dead-cate" onclick="deadCate()" >DEAD</li>
+                </ul>
+            </div>
+            <div class="cube-sliced-04 cube-color"></div>
+            <div class="cube-sliced-06 cube-color"></div>
+
+            <!-- Here comes the content of the cube -->
+
+            <div class="box-img box-img-1">
+                <img src="images/cate-scan-1.png" />
+            </div>
+
+            <div class="box box-1">
+                <div class="box-title">
+                    [7 November 1935]
+                </div>
+                <div class="box-content">
+                  Erwin Schrödinger writes in "Die gegenwärtige Situation in der Quantenmechanik" a thought experiment known as Schrödinger’s cat experiment.
+                </div>
+            </div>
+
+            <div class="box box-2">
+                <div class="box-title">
+                    [5 July 2017, 12:05 pm]
+                </div>
+                <div class="box-content">
+                  The noodles at Fu Jin taste bitter now. After each failed experiments, that’s where we go. Dr Augenblick said nothing. Our last failed attempt had drilled a deep wrinkle on his forehead. His look empties as does his glass.
+                </div>
+            </div>
+
+            <div class="box box-3">
+                <div class="box-title">
+                    [5 July 2017, 12:45 pm]
+                </div>
+                <div class="box-content">
+                  « The old lady next door’s got a cat named Truck. » said the lab assistant Carter after gulping down half a spring roll. « He’s cute» he adds. All sigh, except Augenblick, who winks at me with both his eyes: he’s one-eyed indeed.
+                </div>
+            </div>
+
+            <div class="box box-year-2017">
+              <div class="box-content">
+                2017
+              </div>
+            </div>
+
+            <div class="box-img box-img-2">
+                <img src="images/cate-scan-4.png" />
+            </div>
+
+            <div class="box box-4">
+                <div class="box-title">
+                    [5 July 2017, 7:32 pm]
+                </div>
+                <div class="box-content">
+                  That night while walking home I received a strange text from Dr Augenblick « The story about the cat earlier gave me an idea that could be great. I need to tell you all about it. Let’s meet tomorrow morning in my lab. »
+                </div>
+            </div>
+
+
+            <div class="box box-5">
+                <div class="box-title">
+                  [6 July 2017, 11:00 am]
+                </div>
+                <div class="box-content">
+                  « I remember that old experience Schrödinger did with a cat» Augenblick told me. « Oh that was only theoretical, it was never performed, but I think that was not the point. » I answered. « Exactly! Why Schrödinger never mentioned that cats have 7 lives, and that they are averagely seven times shorter than ours? » he asked. « In all likelihood he didn’t find that relevant » I answered. « Precisely! » he said with a wink.
+                </div>
+            </div>
+
+            <div class="box box-6">
+                <div class="box-title">
+                  [6 July 2017, night]
+                </div>
+                <div class="box-content">
+                  Carter at the phone: « All right, I broke into the old lady’s house. As she’s completely deaf it was fairly easy to turn her flat upside down. Plus, she was absorbed in her new creation she’s currently knitting. I stole some dry food and I will bring you the cat right now! » Carter is quite gullible, but trustworthy.
+                </div>
+            </div>
+
+            <div class="box-img box-img-3">
+                <img src="images/cate-scan-a.png" />
+            </div>
+
+            <div class="box box-7">
+                <div class="box-title">
+                  [6 July 2017, 10:00 pm]
+                </div>
+                <div class="box-content">
+                  Augenblick’s laboratory. Carter arrives, a purring box in his arms. Dr Augenblick is staring at his blackboard, on which he writes several indecipherable equations. When he turns around, we can read: « We have the cat, now let’s solve all the universe’s mysteries. ».
+                </div>
+            </div>
+
+            <div class="box box-8">
+                <div class="box-title">
+                   [6 July 2017, ten seconds before midnight]
+                </div>
+                <div class="box-content">
+                  The experiment can begin. Augenblick is shaking with excitement: « If the cat survives this one, I swear that I will get it to the moon! » The cat is at the heart of the device, situated in a tesseract made in metal alloy through which reductive waves and feedback loops pass. The rest would be too difficult to describe.
+                </div>
+            </div>
+
+            <div class="box box-9">
+                <div class="box-title">
+                  [6-7 July 2017, midnight]
+                </div>
+                <div class="box-content">
+                  Countdown over. The first results are appearing on the screen, handshakes are being given, when suddenly Carter, very worried, notices on his screen: « The mass of the system between the initial and current stage varied from... Seven tons! Minus seven tons. Therefore, the system’s mass is currently… negative? »
+                </div>
+            </div>
+
+            <div class="box-img box-img-4">
+                <img src="images/cate-scan-a.png" />
+            </div>
+
+            <div class="box box-10">
+                <div class="box-title">
+                  [7 July 2017, 12:17 am]
+                </div>
+                <div class="box-content">
+                  Dr Augenblick and his team still haven’t come back. Loud explosions in the other room, while I’m processing the results. Nobody’s coming back. What if something happened? I let my notes here, in case I don’t return. P.S.: how I loved you, Caroline.
+                </div>
+            </div>
+
+            <div class="box box-11">
+                <div class="box-title">
+                  [7 July 2017, 12:30 am]
+                </div>
+                <div class="box-content">
+                  They’re all dead. More precisely, they’re all half-inexistent. Not dead. I Turned the generator off and hid the cat in my suitcase. I need to get out of here quickly.
+                </div>
+            </div>
+
+            <div class="box-img box-img-5">
+                <img src="images/cate-scan-2.png" />
+            </div>
+
+            <div class="box box-12">
+                <div class="box-title">
+                  [11 July 2017]
+                </div>
+                <div class="box-content">
+                  Caroline left me. My mental state was getting worst. Several long nights without sleep. Finally, I took my decision: I’m going to get rid of the suitcase. It had stayed in a corner. I didn’t have had the nerve to open it since that day.
+                </div>
+            </div>
+
+            <div class="box box-13">
+                <div class="box-title">
+                  [12 July 2017]
+                </div>
+                <div class="box-content">
+                  It’s all good, it got stolen. I was surveying the city looking for a place to drop the suitcase when a wild bunch of young rascals bumped into me. I almost broke my neck and before I turned over they had already taken it. They left running like mad dogs. Ha ha!
+                </div>
+            </div>
+
+            <div class="box-img box-img-6">
+                <img src="images/cate-switch.png" />
+            </div>
+
+            <div class="box box-14">
+                <div class="box-title">
+                  [25 December 2017, 02:00 am]
+                </div>
+                <div class="box-content">
+                  Maybe I drink too much. Burp. And one more lonely Christmas. I lost half my fortune investing in crypto currencies. Trapped in limbos…Since… How many times? I lost count. Nothing more to say.
+                </div>
+            </div>
+
+            <div class="box box-year-2018">
+              <div class="box-content">
+                2018
+              </div>
+            </div>
+
+            <div class="box-img box-img-7">
+                <img src="images/cate-switch2.png" />
+            </div>
+
+            <div class="box box-15">
+                <div class="box-title">
+                  [2 January 2018]
+                </div>
+                <div class="box-content">
+                  I thought that the cat’s incident would have no following. I live for another Caroline now, my Shiba dog who gives me the feeling of being loved. When those suitcase stealers moved in the building across the street, I couldn’t stop myself from spying on them. The cat never gets out of the apartment. The cat stealers seem harmless. But I fear that the cat’s value was greatly underestimated.
+                </div>
+            </div>
+
+            <div class="box box-16">
+                <div class="box-title">
+                  [9 January 2018]
+                </div>
+                <div class="box-content">
+                  Every night it’s the same ruckus. People are gathering in front of their building. 48 that night, I count them. One of them gets downstairs, opens the door and the crowd disappears inside. I hear them after singing in strange languages I do not know. Hands are getting out of the windows, carrying beers, cigarettes or biscuits. Then, a golden glow floods the room. They all keep quiet. Silence for me and for them. Should I stay in the dark?
+                </div>
+            </div>
+
+            <div class="box box-17">
+                <div class="box-title">
+                  [11 January 2018]
+                </div>
+                <div class="box-content">
+                  Today I decided to find out for sure. The gathering crowd has reached a tremendous number. I get out, melt in the crowd and reach a kind of stage built for the occasion. The entertainers’ phoney voices gather the crowd’s attention.  I watch as the curtains open revealing a box on an elevated platform. It opens and I see…How – How could I believe it? … Dead silence in the crowd and then cries… Cries of joy?
+                </div>
+            </div>
+
+            <div class="box box-18">
+                <div class="box-title">
+                  [15 January 2018]
+                </div>
+                <div class="box-content">
+                  Things turned quiet again. The bustle of the last days transformed into a mind-numbing routine. Sometimes I see them outside without discerning a trace of enthusiasm or suspicion. However, nothing will make me forget what I saw. My heart is heavy, I am constantly on edge and the abandoned suitcase’s memory haunts me forever and ever in my head.
+                </div>
+            </div>
+
+            <span class="box donation">0xCa7E0090F4454CC3f22FB459f6C491923955B8a1</span>
+
+            <div class="cube-footer">
+                <div class="cube-sliced-07 cube-color"></div>
+                <div class="cube-sliced-08 cube-color"></div>
+                <div class="cube-sliced-09 cube-color"></div>
+            </div>
+            <footer class="footer">
+                <span class="credits">&copy; 2018 Ca7ecoin Foundation</span>
+            </footer>
+        </div>
+  </body>
+</html>

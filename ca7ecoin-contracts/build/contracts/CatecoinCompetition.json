@@ -1,0 +1,129 @@
+{
+  "contractName": "CatecoinCompetition",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820b3cbed7e8a088b31cbf5f2b4e7c84767ebe580459928e21f7321f8e3b328fc1e0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820b3cbed7e8a088b31cbf5f2b4e7c84767ebe580459928e21f7321f8e3b328fc1e0029",
+  "sourceMap": "25:97:1:-;;;58:62;;;;;;;;25:97;;;;;;",
+  "deployedSourceMap": "25:97:1:-;;;;;",
+  "source": "pragma solidity ^0.4.4;\n\ncontract CatecoinCompetition {\n  function CatecoinCompetition() public {\n    // constructor\n  }\n}\n",
+  "sourcePath": "/home/gno/catecoin/catecoin-project/ca7ecoin-contracts/contracts/CatecoinCompetition.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/gno/catecoin/catecoin-project/ca7ecoin-contracts/contracts/CatecoinCompetition.sol",
+      "exportedSymbols": {
+        "CatecoinCompetition": [
+          29
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".4"
+          ]
+        },
+        "id": 24,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            29
+          ],
+          "name": "CatecoinCompetition",
+          "scope": 30
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "CatecoinCompetition",
+              "payable": false,
+              "scope": 29,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 25,
+                "name": "ParameterList",
+                "src": "86:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 26,
+                "name": "ParameterList",
+                "src": "96:0:1"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 27,
+                "name": "Block",
+                "src": "96:24:1"
+              }
+            ],
+            "id": 28,
+            "name": "FunctionDefinition",
+            "src": "58:62:1"
+          }
+        ],
+        "id": 29,
+        "name": "ContractDefinition",
+        "src": "25:97:1"
+      }
+    ],
+    "id": 30,
+    "name": "SourceUnit",
+    "src": "0:123:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-16T14:51:48.353Z"
+}

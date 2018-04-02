@@ -1,0 +1,129 @@
+{
+  "contractName": "CatecoinDonation",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820304b1bdd2e3a530abd1a7dea66a488a01055a15142ecb59fbfc94517700135be0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820304b1bdd2e3a530abd1a7dea66a488a01055a15142ecb59fbfc94517700135be0029",
+  "sourceMap": "25:90:2:-;;;55:58;;;;;;;;25:90;;;;;;",
+  "deployedSourceMap": "25:90:2:-;;;;;",
+  "source": "pragma solidity ^0.4.4;\n\ncontract CatecoinDonation {\n  function CatecoinDonation() public{\n    // constructor\n  }\n}\n",
+  "sourcePath": "/home/gno/catecoin/catecoin-project/ca7ecoin-contracts/contracts/CatecoinDonation.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/gno/catecoin/catecoin-project/ca7ecoin-contracts/contracts/CatecoinDonation.sol",
+      "exportedSymbols": {
+        "CatecoinDonation": [
+          36
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".4"
+          ]
+        },
+        "id": 31,
+        "name": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            36
+          ],
+          "name": "CatecoinDonation",
+          "scope": 37
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "CatecoinDonation",
+              "payable": false,
+              "scope": 36,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 32,
+                "name": "ParameterList",
+                "src": "80:2:2"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 33,
+                "name": "ParameterList",
+                "src": "89:0:2"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 34,
+                "name": "Block",
+                "src": "89:24:2"
+              }
+            ],
+            "id": 35,
+            "name": "FunctionDefinition",
+            "src": "55:58:2"
+          }
+        ],
+        "id": 36,
+        "name": "ContractDefinition",
+        "src": "25:90:2"
+      }
+    ],
+    "id": 37,
+    "name": "SourceUnit",
+    "src": "0:116:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-16T14:51:48.353Z"
+}
