@@ -6,7 +6,7 @@
 module.exports = {
     networks: {
         development: {
-            host: '127.0.0.1',
+            host: 'localhost',
             port: 8545,
             network_id: '*', // Match any network id
             gas: 1000000,
@@ -14,7 +14,7 @@ module.exports = {
         }
     },
     rpc: {
-        host: "127.0.0.1",
+        host: "localhost",
         gas: 4712388,
         port: 8545
     }

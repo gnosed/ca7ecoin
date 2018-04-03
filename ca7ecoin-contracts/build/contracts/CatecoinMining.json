@@ -8,122 +8,167 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a723058209f3f8073177cf7cbafc8a36457e66073ebbcee6142f80c06fb53ce73fb81d3870029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058209f3f8073177cf7cbafc8a36457e66073ebbcee6142f80c06fb53ce73fb81d3870029",
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820522e701853912196eba22c00316518b704cc632c59cc9c14b8c908bfe1d1b5460029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820522e701853912196eba22c00316518b704cc632c59cc9c14b8c908bfe1d1b5460029",
   "sourceMap": "25:87:5:-;;;53:57;;;;;;;;25:87;;;;;;",
   "deployedSourceMap": "25:87:5:-;;;;;",
   "source": "pragma solidity ^0.4.4;\n\ncontract CatecoinMining {\n  function CatecoinMining() public {\n    // constructor\n  }\n}\n",
-  "sourcePath": "/home/gno/catecoin/catecoin-project/ca7ecoin-contracts/contracts/CatecoinMining.sol",
+  "sourcePath": "/home/gno/ca7ecoin/ca7ecoin-contracts/contracts/CatecoinMining.sol",
   "ast": {
-    "attributes": {
-      "absolutePath": "/home/gno/catecoin/catecoin-project/ca7ecoin-contracts/contracts/CatecoinMining.sol",
-      "exportedSymbols": {
-        "CatecoinMining": [
-          1191
-        ]
-      }
+    "absolutePath": "/home/gno/ca7ecoin/ca7ecoin-contracts/contracts/CatecoinMining.sol",
+    "exportedSymbols": {
+      "CatecoinMining": [
+        1185
+      ]
     },
-    "children": [
+    "id": 1186,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.4",
-            ".4"
-          ]
-        },
-        "id": 1186,
-        "name": "PragmaDirective",
+        "id": 1180,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
         "src": "0:23:5"
       },
       {
-        "attributes": {
-          "baseContracts": [
-            null
-          ],
-          "contractDependencies": [
-            null
-          ],
-          "contractKind": "contract",
-          "documentation": null,
-          "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            1191
-          ],
-          "name": "CatecoinMining",
-          "scope": 1192
-        },
-        "children": [
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1185,
+        "linearizedBaseContracts": [
+          1185
+        ],
+        "name": "CatecoinMining",
+        "nodeType": "ContractDefinition",
+        "nodes": [
           {
-            "attributes": {
-              "constant": false,
-              "implemented": true,
-              "isConstructor": true,
-              "modifiers": [
-                null
-              ],
-              "name": "CatecoinMining",
-              "payable": false,
-              "scope": 1191,
-              "stateMutability": "nonpayable",
-              "superFunction": null,
-              "visibility": "public"
+            "body": {
+              "id": 1183,
+              "nodeType": "Block",
+              "src": "86:24:5",
+              "statements": []
             },
-            "children": [
-              {
-                "attributes": {
-                  "parameters": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 1187,
-                "name": "ParameterList",
-                "src": "76:2:5"
-              },
-              {
-                "attributes": {
-                  "parameters": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 1188,
-                "name": "ParameterList",
-                "src": "86:0:5"
-              },
-              {
-                "attributes": {
-                  "statements": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 1189,
-                "name": "Block",
-                "src": "86:24:5"
-              }
-            ],
-            "id": 1190,
-            "name": "FunctionDefinition",
-            "src": "53:57:5"
+            "documentation": null,
+            "id": 1184,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "CatecoinMining",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1181,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "76:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 1182,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "86:0:5"
+            },
+            "scope": 1185,
+            "src": "53:57:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
           }
         ],
-        "id": 1191,
-        "name": "ContractDefinition",
+        "scope": 1186,
         "src": "25:87:5"
       }
     ],
-    "id": 1192,
-    "name": "SourceUnit",
+    "src": "0:113:5"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/gno/ca7ecoin/ca7ecoin-contracts/contracts/CatecoinMining.sol",
+    "exportedSymbols": {
+      "CatecoinMining": [
+        1185
+      ]
+    },
+    "id": 1186,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1180,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1185,
+        "linearizedBaseContracts": [
+          1185
+        ],
+        "name": "CatecoinMining",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1183,
+              "nodeType": "Block",
+              "src": "86:24:5",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 1184,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "CatecoinMining",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1181,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "76:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 1182,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "86:0:5"
+            },
+            "scope": 1185,
+            "src": "53:57:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1186,
+        "src": "25:87:5"
+      }
+    ],
     "src": "0:113:5"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-16T14:51:48.356Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-04-03T15:03:54.813Z"
 }
